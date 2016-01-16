@@ -1,2 +1,5 @@
 Q. What happens when you initialize a repository? Why do you need to do it?
 A. When you initialize a repository, a .git directory containing metadata is set up. This is needed to start the process of version tracking.
+
+Q. How is the staging area different from the working directory and the repository? What value do you think it offers?
+A. The staging area just contains information about changes to be made. The working directory contains the current state of the system, and the repository the entire history. It allows control to be exercised over changes to be made.
