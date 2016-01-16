@@ -1,0 +1,2 @@
+Q. What happens when you initialize a repository? Why do you need to do it?
+A. When you initialize a repository, a .git directory containing metadata is set up. This is needed to start the process of version tracking.
