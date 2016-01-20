@@ -3,3 +3,9 @@ A. When you initialize a repository, a .git directory containing metadata is set
 
 Q. How is the staging area different from the working directory and the repository? What value do you think it offers?
 A. The staging area just contains information about changes to be made. The working directory contains the current state of the system, and the repository the entire history. It allows control to be exercised over changes to be made.
+
+Q. How can you use the staging area to make sure you have one commit per logical change?
+A. Use "git add" to add just the changes associated with one logical change to the staging area before each commit.
+
+Q. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A. 
