@@ -9,3 +9,13 @@ A. Use "git add" to add just the changes associated with one logical change to t
 
 Q. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 A. If you wish to make experimental changes to test out possible new features.
+
+Q. How do the diagrams help you visualize the branch structure?
+A. The diagrams show the connections from each commit to it's parent.
+
+Q. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A. Merging two branches together combines the changes made in two different branches into one branch. It is represented in the diagram as a child with two parent commits, showing that the branch has inherited changes from two different branches.
+
+Q. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A. Pros: Save time!
+Cons: May lose track of what is really happening.
